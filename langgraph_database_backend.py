@@ -20,7 +20,7 @@ llm = ChatOpenAI(
     api_key=openrouter_api_key, 
     base_url="https://openrouter.ai/api/v1", 
     model="google/gemini-2.5-flash",
-    model_kwargs={"max_tokens": 500} 
+    model_kwargs={"max_tokens": 3000} 
 )
 
 class ChatState(TypedDict):
